@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dream Portal QA Suite" verbose="1">
+    <listeners>
+        <listener class-name="utils.TestListener" />
+    </listeners>
+    <test name="Functional Tests">
+        <classes>
+            <class name="tests.HomePageTest"/>
+            <class name="tests.DreamsDiaryTest"/>
+            <class name="tests.DreamsTotalTest"/>
+            <class name="tests.CrossPageValidationTest"/>
+            <class name="tests.AIValidationTest"/>
+        </classes>
+    </test>
+</suite>
